@@ -1,21 +1,5 @@
 import java.util.Scanner;
-class StuData
-{
-	String rno,name,branch;
-	StuData( String name ,String rno,String branch)
-	{
-		this.name=name;
-		this.rno=rno;
-		this.branch=branch;
-	}
-	void display()
-	{
-		System.out.println("*****student details*****");
-		System.out.println("The name of student-name is:="+name);
-		System.out.println("The name of student-rollno is:="+rno);
-		System.out.println("The name of student-branch is:="+branch);
-	}
-}
+
 class StuContact
 {
 	String mid;
